@@ -130,6 +130,10 @@ nav h1 a {
   width: 200px;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   display: flex;
