@@ -65,9 +65,29 @@
 	#restaurants-list h1 {
 		font-size: 14pt;
 	}
-
 }
 
+@media screen and (max-width: 550px) {
+	#reviews-container {
+		width: 43%;
+	}
+
+	#reviews-list p {
+		font-size: 14pt;
+	}
+
+	#restaurant-hours tr td {
+		font-size: 14pt;
+	}
+
+	#restaurant-cusine {
+		margin: 0;
+	}
+	#footer {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
 
 
 
