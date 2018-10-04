@@ -1,6 +1,9 @@
 /**
  * Common database helper functions
  */
+
+ //!!! If hosting changes, change imageUrlForRestaurant return URL, and DATABAE_URL if statement return URL.
+
 class DBHelper {
 
   /**
