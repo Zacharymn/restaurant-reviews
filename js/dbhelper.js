@@ -12,7 +12,7 @@ class DBHelper {
 
     // For non-local hosts
     if (window.location.hostname !== 'localhost') {
-        return `${window.location.origin}/FEND-RestaurantReview/data/restaurants.json`; 
+        return `${window.location.origin}/restaurant-reviews/data/restaurants.json`; 
     }
 
     return `http://localhost:${port}/data/restaurants.json`;
