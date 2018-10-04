@@ -9,6 +9,12 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
+
+    // For non-local hosts
+    if (window.location.hostname !== 'localhost') {
+        return `${window.location.origin}/FEND-RestaurantReview/data/restaurants.json`; 
+    }
+
     return `http://localhost:${port}/data/restaurants.json`;
   }
 
